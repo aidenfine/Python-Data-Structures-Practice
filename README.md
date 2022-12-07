@@ -57,8 +57,6 @@ for i = 0; i < n; i+= 1:
         x /= 2;
 ```
 
-<h4>Real Code Examples</h4>
-
 <h3>Linear Search</h3>
 
 ```python
