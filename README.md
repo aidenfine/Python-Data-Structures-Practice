@@ -17,7 +17,7 @@ A place to save my work 🙃
 
 <h3>Examples</h3>
 
-```
+```python
 # O(1)
 s = 4 + 3
 ```
