@@ -8,7 +8,7 @@ for aword in wordlist:
 
 
 print(letterlist)
-
+"""
 
 list = ["soup", "shrimp", "taco"]
 arr = [ ]
@@ -20,3 +20,5 @@ for i in list:
 
 print(arr)
 print(len(arr))
+
+"""
