@@ -1,16 +1,15 @@
 # Python-Data-Structures-Practice
 
 A place to save my work 🙃
-
-## big 0  
 <br>
+## Big O
 <ul>
-    most common 
-    <li>0(1) - constant </li>
-    <li>0(log n) - logarthmic </li>
-    <li>0(n) - linear </li>
-    <li>0(n²) - quadratic </li>
-    less common
-    <li>0(2ⁿ) - exponential </li>
-    <li>0(nⁿ) - ?? </li>
-    <li>0(n!) - factorial </li> 
+    #### Most Common 
+    <li>O(1) - constant </li>
+    <li>O(log n) - logarthmic </li>
+    <li>O(n) - linear </li>
+    <li>O(n²) - quadratic </li>
+    #### Less Common
+    <li>O(2ⁿ) - exponential </li>
+    <li>O(nⁿ) - ?? </li>
+    <li>O(n!) - factorial </li> 
