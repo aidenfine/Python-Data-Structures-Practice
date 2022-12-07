@@ -13,3 +13,10 @@ A place to save my work 🙃
     <li>O(2ⁿ) - exponential </li>
     <li>O(nⁿ) - ?? </li>
     <li>O(n!) - factorial </li> 
+</ul>
+
+<h3>Examples</h3>
+```
+# O(1)
+s = 4 + 3
+```
