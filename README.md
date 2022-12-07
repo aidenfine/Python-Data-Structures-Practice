@@ -56,3 +56,55 @@ for i = 0; i < n; i+= 1:
     while x > 0:
         x /= 2;
 ```
+
+<h4>Real Code Examples</h4>
+
+```python
+import random
+
+value = random.randint(1, 50)
+list = range(1,50)
+print(value)
+def search(value, list):
+
+    # O(1)
+    found = False
+    position = -1
+    index = 0
+    # O(n)
+    while not found and index < len(list):
+        # O(1)
+        if list[index] == value:
+            found = True
+            position = index
+        else:
+            index += 1
+    print("n found")
+    print(position)
+
+search(value, list)
+
+# O(1) + O(n) * O(1) ----> O(n)
+```
+
+<p>Binary Search</p>
+Solved from leetcode question [704.](https://leetcode.com/problems/binary-search/description/).
+
+```python
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        first = 0 # get first number in the list 
+        last = len(nums)-1 # get last number in the list 
+
+        while first <= last: # when first number is bigger than last number loop
+            mid = (first + last)//2 # get mid point by add first+last then divide 
+            # this is best case or fastest runtime
+            if nums[mid] == target:
+                return mid
+            # if mid is less than check left side of list 
+            elif nums[mid] < target:
+                first = mid + 1
+            else:
+                last = mid - 1
+        return -1
+```

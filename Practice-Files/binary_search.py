@@ -26,16 +26,17 @@ def binary_search(list, target):
     return None
 
 def verify(index):
-    if index is not None:
+    if index is None:
         print("Target found at index: ", index)
     else:
         print("target not found in list")
 
 random = random.randint(1,10)
+x = 2
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
-result = binary_search(numbers, 12)
-verify(result)
+# result = binary_search(numbers, )
+# verify(result)
 
-result = binary_search(numbers, random)
+result = binary_search(numbers, x)
 verify(result)

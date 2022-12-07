@@ -13,6 +13,7 @@ print(A)
 # ------------------------------------------------------------------
 
 myList = [1024, 3, True, 6.5]
+print(myList[2])
 
 myList.append(False) # list.append adds a new item to the end of the list 
 print(myList)        # list.append(item)
@@ -38,7 +39,7 @@ print(myList.count(6.5)) # list.count(item) returns the number of occurrences of
 print(myList.index(4.5)) # 
 myList.remove(6.5) # list.remove(item) removes the first occurrences of item
 print(myList)
-del myList[0] # del list[i] deletes i 
+del myList[i] # del list[i] deletes i 
 print(myList)
 
 
