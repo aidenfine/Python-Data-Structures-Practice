@@ -2,14 +2,14 @@
 
 A place to save my work 🙃
 <br>
-## Big O
+<h2>Big O</h2>
 <ul>
-    #### Most Common 
+    <h4>Most Common</h4> 
     <li>O(1) - constant </li>
     <li>O(log n) - logarthmic </li>
     <li>O(n) - linear </li>
     <li>O(n²) - quadratic </li>
-    #### Less Common
+    <h4>Less Common</h4>
     <li>O(2ⁿ) - exponential </li>
     <li>O(nⁿ) - ?? </li>
     <li>O(n!) - factorial </li> 
