@@ -88,7 +88,7 @@ search(value, list)
 ```
 
 <h3>Binary Search</h3>
-Solved from leetcode question [704.](https://leetcode.com/problems/binary-search/description/).
+Solved from leetcode question [704.] (https://leetcode.com/problems/binary-search/description/ "704.").
 
 ```python
 class Solution:
