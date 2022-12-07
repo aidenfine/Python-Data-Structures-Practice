@@ -16,6 +16,7 @@ A place to save my work 🙃
 </ul>
 
 <h3>Examples</h3>
+
 ```
 # O(1)
 s = 4 + 3
