@@ -59,6 +59,8 @@ for i = 0; i < n; i+= 1:
 
 <h4>Real Code Examples</h4>
 
+<h3>Linear Search</h3>
+
 ```python
 import random
 
@@ -87,7 +89,7 @@ search(value, list)
 # O(1) + O(n) * O(1) ----> O(n)
 ```
 
-<p>Binary Search</p>
+<h3>Binary Search</h3>
 Solved from leetcode question [704.](https://leetcode.com/problems/binary-search/description/).
 
 ```python
