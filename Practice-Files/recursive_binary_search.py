@@ -1,7 +1,6 @@
 import numbers
 from unittest import result
 
-
 def recursive_binary_search(list, target):
     if len(list) == 0:
         return False
