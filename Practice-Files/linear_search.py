@@ -1,23 +1,15 @@
-from unittest import result
 
-
+list = [5,8,4,6,9,2]
+n = 9
 def linear_search(list, target):
-    """
-    returns the index position of the target if found else returns none
-    """
-    
-    for i in range(0, len(list)):
+    i = 0
+    while i < len(list):
         if list[i] == target:
-            return i 
-    return None
+            return True
+        i = i + 1
+    return False
 
-def verify(index):
-    if index is not None:
-        print("Target found at index: ", index)
-    else:
-        print("target not found in list")
-
-numbers = [1,2,3,4,5,6,7,8,9,10]
-
-result = linear_search(numbers, 6)
-verify(result)
+if linear_search(list, n):
+    print("found")
+else:
+    print("not found")
